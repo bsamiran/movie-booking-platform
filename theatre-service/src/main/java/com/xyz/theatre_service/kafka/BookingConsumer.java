@@ -1,6 +1,6 @@
 package com.xyz.theatre_service.kafka;
 
-import com.xyz.common_dto.events.BookingEvent;
+import com.xyz.common_dto.dto.BookingEvent;
 import com.xyz.theatre_service.entity.Show;
 import com.xyz.theatre_service.repository.ShowRepository;
 import org.springframework.kafka.annotation.KafkaListener;

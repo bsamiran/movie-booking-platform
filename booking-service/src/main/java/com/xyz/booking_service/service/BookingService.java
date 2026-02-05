@@ -33,7 +33,7 @@ public class BookingService {
         Booking saved = bookingRepository.save(booking);
 
         // publish Kafka event
-        bookingProducer.sendBookingEvent(new com.xyz.common_dto.events.BookingEvent(showId, tickets));
+        bookingProducer.sendBookingEvent(new com.xyz.common_dto.dto.BookingEvent(showId, tickets));
 
         return saved;
     }

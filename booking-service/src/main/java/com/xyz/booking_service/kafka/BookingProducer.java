@@ -1,6 +1,6 @@
 package com.xyz.booking_service.kafka;
 
-import com.xyz.common_dto.events.BookingEvent;
+import com.xyz.common_dto.dto.BookingEvent;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Component;
 

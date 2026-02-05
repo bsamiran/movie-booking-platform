@@ -29,5 +29,6 @@
 		<module>theatre-service</module>
 		<module>booking-service</module>
 		<module>common-dto</module>
+		<module>auth-service</module>
 	</modules>
 </project>

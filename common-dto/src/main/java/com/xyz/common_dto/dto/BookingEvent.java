@@ -1,4 +1,4 @@
-package com.xyz.common_dto.events;
+package com.xyz.common_dto.dto;
 
 public class BookingEvent {
     private Long showId;

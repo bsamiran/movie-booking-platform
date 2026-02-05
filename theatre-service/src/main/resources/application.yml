@@ -31,3 +31,7 @@ spring:
     producer:
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+
+jwt:
+  secret: ThisIsASuperSecretKeyForJwtAuthService1234567890
+  expiration: 3600000   # 1 hour in milliseconds
